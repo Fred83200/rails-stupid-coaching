@@ -1,0 +1,73 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$red_but: #D00000;
+$wild_blue: #A2AEBB;
+$trolley: #7C7C7C;
+$light_green: #8FE388;
+$malachite: #6EEB83;
+
+html {
+  background-color: $trolley;
+}
+
+h1 {
+  color: $light_green;
+  text-align: center;
+  margin-top: 200px;
+}
+
+p {
+  color: $light_green;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  text-align: center;
+}
+
+#button-ask {
+  color: $trolley;
+  background-color: $light_green;
+  border-color: $light_green;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+#button-ask:hover {
+  background-color: $malachite;
+}
+
+#footer {
+  color: $light_green;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.list-inline {
+  text-align: center;
+  list-style: inside;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.icon-grey {
+  font-size: 35px;
+  color: rgb(50,50,50);
+  opacity: 0.75;
+}
+
+.icon-grey:hover {
+  opacity: 1;
+  color: $light_green;
+}
+
+.link {
+  text-align: center;
+}
